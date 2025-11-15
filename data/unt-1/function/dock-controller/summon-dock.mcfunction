@@ -1,0 +1,1 @@
+execute align xyz run summon armor_stand ~0.5 ~ ~0.5 {NoGravity:0b,Invulnerable:1b,Tags:["unt-1.dock"],Silent:1b}

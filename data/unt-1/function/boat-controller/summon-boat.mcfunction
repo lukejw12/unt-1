@@ -1,0 +1,2 @@
+summon armor_stand ~ ~ ~ {Invisible:1b,NoGravity:0b,Invulnerable:1b,Tags:["unt-1.boat"],Silent:1b,Passengers:[{id:item_display,item:{id:stone,components:{item_model:"unt-1:boat-type1"}},teleport_duration:1,Tags:["boat-display"],item_display:"ground"}]}
+ride @a[limit=1] mount @e[type=armor_stand,limit=1,tag=unt-1.boat]

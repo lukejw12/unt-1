@@ -1,5 +1,5 @@
 # check if still holding space if not, cancel docking
-execute unless entity @a[predicate=unt-1:boat-movement/dock] run tag @s remove is_docking
+execute unless entity @a[predicate=unt-1:boat-movement/dock] run tag @s remove unt-1.is_docking
 execute unless entity @a[predicate=unt-1:boat-movement/dock] run return 0
 
 # smooth rotation towards target angle
@@ -39,8 +39,8 @@ scoreboard players operation #temp_dz temp *= #dz temp
 scoreboard players operation #distance temp += #temp_dz temp
 
 # stop if within 50 units (0.5 blocks) and snap to position
-execute if score #distance temp matches ..2500 run tag @s add docked
-execute if score #distance temp matches ..2500 run tag @s remove is_docking
+execute if score #distance temp matches ..2500 run tag @s add unt-1.docked
+execute if score #distance temp matches ..2500 run tag @s remove unt-1.is_docking
 execute if score #distance temp matches ..2500 store result entity @s Pos[0] double 0.01 run scoreboard players get @s target_dock_x
 execute if score #distance temp matches ..2500 store result entity @s Pos[2] double 0.01 run scoreboard players get @s target_dock_z
 execute if score #distance temp matches ..2500 run data modify entity @s Motion[0] set value 0.0

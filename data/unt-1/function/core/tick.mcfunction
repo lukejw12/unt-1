@@ -1,1 +1,1 @@
-execute at @a run function unt-1:player-relative/location-tick
+execute as @a at @s run function unt-1:player-relative/location-tick
