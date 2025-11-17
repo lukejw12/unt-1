@@ -1,8 +1,5 @@
 give @p gray_dye[custom_data={unt-1.basic_fishing_rod:1b,unt-1.shallows:1b,unt-1.multi_slot:1b,unt-1.size_1x2:1b,unt-1.blocks_right:1b},item_model="unt-1:rods/basic_rod_gui",item_name={"color":"white","italic":false,"text":"Basic Rod"},lore=[{"color":"gray","italic":false,"text":"╔ [Common]"},{"color":"gray","italic":false,"text":"║ "},[{"color":"gray","italic":false,"text":"║ "},{"color":"gray","italic":false,"shadow_color":1511325672,"text":"[Shallows]"}],{"color":"gray","italic":false,"text":"║"},{"color":"gray","italic":false,"text":"╠ A fisherman's"},{"color":"gray","italic":false,"text":"╚ first rod"}]] 1
 
-give @p gray_dye[custom_data={unt-1.multi_slot:1b,unt-1.size_L:1b,unt-1.blocks_right:1b,unt-1.blocks_diagonal:1b},item_model="unt-1:fish/shallow/cod",item_name={"color":"white","italic":false,"text":"Cod"}] 1
+give @p gray_dye[custom_data={unt-1.multi_slot:1b,unt-1.size_L:1b,unt-1.blocks_right:1b,unt-1.blocks_diagonal:1b,unt-1.rotatable:1b,unt-1.item_type:"cod",unt-1.rotation:0b},item_model="unt-1:fish/shallow/cod/cod_0",item_name={"color":"white","italic":false,"text":"Cod"}] 1
 give @p gray_dye[custom_data={unt-1.multi_slot:1b,unt-1.size_1x2:1b,unt-1.blocks_right:1b},item_model="unt-1:fish/shallow/blue-mackeral",item_name={"color":"white","italic":false,"text":"Blue Mackeral"}] 1
 give @p gray_dye[item_model="unt-1:fish/shallow/perch",item_name={"color":"white","italic":false,"text":"Perch"}] 1
-
-ook now how complicated would smth llike rotating the itemms be? like if i hold an item in my cursor then click like an item thats placed in the offhand slot as a button, itll rootate the item in my cuursor 90 degres, so the occuipied slots spoots would rotate 90 degress aroound the center slot
-so the cod which is like ╗ would rotate 900 degress to be ╝ doo you understand? also how difficult would this be to implement with my resource pack?
