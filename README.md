@@ -35,3 +35,5 @@ Untitled-1
 11/14/25 - Created rough layout for inventory management
 
 11/16/25 - implemented rough layout for custom sized items with inventory management
+
+11/17/25 - Introduuced rotatable fish for inventory managment
