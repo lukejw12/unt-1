@@ -43,6 +43,10 @@ execute if items entity @s container.23 *[custom_data~{unt-1.blocks_diagonal:1b}
 execute if items entity @s container.24 *[custom_data~{unt-1.blocks_diagonal:1b}] if items entity @s container.33 *[custom_data~{unt-1.blocks_right:1b}] run return run function unt-1:inventory/return-item {slot:33}
 execute if items entity @s container.25 *[custom_data~{unt-1.blocks_diagonal:1b}] if items entity @s container.34 *[custom_data~{unt-1.blocks_right:1b}] run return run function unt-1:inventory/return-item {slot:34}
 
-# Regular blocking checks
+# Call the helper check functions that handle right and diagonal blocking
+function unt-1:inventory/check-slots-0-6
+function unt-1:inventory/check-slots-9-16
+function unt-1:inventory/check-slots-18-25
+function unt-1:inventory/check-slots-27-34
 function unt-1:inventory/check-right-blocks
 function unt-1:inventory/check-diagonal-blocks
