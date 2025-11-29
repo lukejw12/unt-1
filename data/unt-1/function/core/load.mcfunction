@@ -36,6 +36,19 @@ scoreboard objectives add unt-1.placement_success dummy
 scoreboard objectives add unt-1.inv_slot dummy
 scoreboard objectives add unt-1.inv_rotation dummy
 
+# Arrow position tracking
+scoreboard objectives add unt-1.arrow_pos dummy
+scoreboard objectives add unt-1.arrow_direction dummy
+
+scoreboard players set #arrow_min unt-1.const 0
+scoreboard players set #arrow_max unt-1.const 9
+# Target tracking
+scoreboard objectives add unt-1.target_pos dummy
+scoreboard objectives add unt-1.target_size dummy
+
+# Constants for negative space values
+scoreboard players set #1 unt-1.const 1
+
 # Constants
 scoreboard players set #-1 unt-1.const -1
 scoreboard players set #2 unt-1.const 2

@@ -1,0 +1,1 @@
+$title @s actionbar [{"text":"\ub000","font":"unt-1:gui/fishing-t1-seg-mid","shadow_color":1},{"text":"\uf008\uf008\uf008\uf008\uf008\uf007\uf005$(target_char)","font":"unt-1:gui/fishing-t1-seg-mid","shadow_color":1},{"text":"\uf008\uf008\uf008\uf008\uf008\uf007\uf005$(arrow_char)","font":"unt-1:gui/fishing-t1-seg-mid","shadow_color":1}]
