@@ -1,5 +1,5 @@
 execute as @e[type=marker,tag=unt-1.fishing_zone] at @s run function unt-1:fishing/zone/display-particles
-execute at @e[type=marker,tag=unt-1.fishing_zone] unless entity @a[distance=..3] as @a[tag=unt-1.near_zone] run function unt-1:fishing/cast/cancel
+execute at @e[type=marker,tag=unt-1.fishing_zone] unless entity @a[distance=..1.5] as @a[tag=unt-1.near_zone] run function unt-1:fishing/cast/cancel
 execute as @a at @s run function unt-1:fishing/zone/detect-player
 
 execute as @a[tag=unt-1.fishing] run function unt-1:fishing/reel/tick

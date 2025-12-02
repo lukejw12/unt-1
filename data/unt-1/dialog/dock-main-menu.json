@@ -1,7 +1,7 @@
 {
   "type": "minecraft:multi_action",
   "title": {
-    "text": "Harbor Dock",
+    "text": "",
     "color": "aqua",
     "bold": true
   },
@@ -10,21 +10,36 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "═══════════════════════════\n",
-          "color": "gray"
+          "text": "\uf001\uf001\ua000\n",
+          "font": "unt-1:gui/dock"
         },
         {
-          "text": "You've docked at the harbor.\n",
-          "color": "white"
+          "text": "\n",
+          "font": "unt-1:gui/dock"
         },
         {
-          "text": "Where would you like to go?\n",
-          "color": "gray",
-          "italic": true
+          "text": "\n",
+          "font": "unt-1:gui/dock"
         },
         {
-          "text": "═══════════════════════════",
-          "color": "gray"
+          "text": "\n",
+          "font": "unt-1:gui/dock"
+        },
+        {
+          "text": "\n",
+          "font": "unt-1:gui/dock"
+        },
+        {
+          "text": "\n",
+          "font": "unt-1:gui/dock"
+        },
+        {
+          "text": "\n",
+          "font": "unt-1:gui/dock"
+        },
+        {
+          "text": "\n",
+          "font": "unt-1:gui/dock"
         }
       ],
       "width": 300
@@ -33,9 +48,8 @@
   "actions": [
     {
       "label": {
-        "text": "🐟 Fish Market",
-        "color": "green",
-        "bold": true
+        "text": "\uf001\ua001",
+        "font": "unt-1:gui/dock"
       },
       "tooltip": {
         "text": "Sell your fish for emeralds",
@@ -49,9 +63,8 @@
     },
     {
       "label": {
-        "text": "🎣 Bait & Tackle",
-        "color": "yellow",
-        "bold": true
+        "text": "\uf001\ua003",
+        "font": "unt-1:gui/dock"
       },
       "tooltip": {
         "text": "Buy bait and fishing supplies",
@@ -65,9 +78,8 @@
     },
     {
       "label": {
-        "text": "⚙ Boat Upgrades",
-        "color": "gold",
-        "bold": true
+       "text": "\uf001\ua002",
+        "font": "unt-1:gui/dock"
       },
       "tooltip": {
         "text": "Upgrade your boat",
@@ -81,9 +93,8 @@
     },
     {
       "label": {
-        "text": "⛵ Set Sail",
-        "color": "red",
-        "bold": true
+         "text": "\uf001\ua004",
+        "font": "unt-1:gui/dock"
       },
       "tooltip": {
         "text": "Undock and continue sailing",
@@ -98,5 +109,5 @@
   ],
   "columns": 1,
   "pause": false,
-  "can_close_with_escape": true
+  "can_close_with_escape": false
 }

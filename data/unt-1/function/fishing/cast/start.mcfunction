@@ -15,3 +15,4 @@ function unt-1:fishing/set_random_target
 
 playsound minecraft:entity.fishing_bobber.splash player @s ~ ~ ~ 1 1
 tellraw @s {"text":"Fishing started! Press [Space] when the arrow hits the target!","color":"green"}
+execute as @e[type=item_display,tag=boat-display,limit=1,sort=nearest] run data modify entity @s item.components."minecraft:item_model" set value "unt-1:boat-type1-fish"
