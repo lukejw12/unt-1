@@ -22,7 +22,7 @@ scoreboard objectives add unt-1.abs_z dummy
 scoreboard objectives add unt-1.inv_check dummy
 scoreboard objectives add unt-1.blocked dummy
 scoreboard objectives add unt-1.rotation dummy
-
+scoreboard objectives add unt-1.is_trophy_target dummy
 scoreboard objectives add unt-1.inv_changed dummy
 
 # Fishing scoreboards

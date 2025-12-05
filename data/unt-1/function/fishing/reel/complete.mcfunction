@@ -2,9 +2,8 @@ scoreboard players operation #fishing_seconds unt-1.temp = @s unt-1.fishing_time
 scoreboard players operation #fishing_seconds unt-1.temp /= #20 unt-1.const
 
 scoreboard players set #speed_bonus unt-1.temp 0
-execute if score #fishing_seconds unt-1.temp matches ..9 run scoreboard players set #speed_bonus unt-1.temp 10
+execute if score #fishing_seconds unt-1.temp matches ..9 run scoreboard players set #speed_bonus unt-1.temp 14
 execute if score #fishing_seconds unt-1.temp matches ..9 run scoreboard players operation #speed_bonus unt-1.temp -= #fishing_seconds unt-1.temp
-execute if score #fishing_seconds unt-1.temp matches ..9 run scoreboard players operation #speed_bonus unt-1.temp /= #2 unt-1.const
 execute if score #fishing_seconds unt-1.temp matches ..9 run scoreboard players operation #speed_bonus unt-1.temp *= #5 unt-1.const
 
 scoreboard players operation #miss_penalty unt-1.temp = @s unt-1.fishing_misses
