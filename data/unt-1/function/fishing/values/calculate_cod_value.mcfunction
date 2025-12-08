@@ -23,7 +23,6 @@ scoreboard players operation #feet_whole unt-1.temp /= #100 unt-1.const
 scoreboard players operation #feet_decimal unt-1.temp = #feet_100 unt-1.temp
 scoreboard players operation #feet_decimal unt-1.temp %= #100 unt-1.const
 
-# Calculate fish value using constants
 scoreboard players operation #fish_value_cents unt-1.temp = #cod_value_range unt-1.const
 scoreboard players operation #fish_value_cents unt-1.temp *= #length_percent unt-1.temp
 scoreboard players operation #fish_value_cents unt-1.temp /= #100 unt-1.const

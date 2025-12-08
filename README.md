@@ -1,20 +1,20 @@
-# [Fathomless]
+#[Fathomless]
 
 
-# Features?
+#Features?
 - Fishing
 - Boat and rod upgrades, some kind of tiered/ paths system?
 - Fish Market
 - Some kind of loose story?
 
 
-#### Outlines:
+####Outlines:
 
-### Fishing
-## Fishing zones
-# Appearance: 
+###Fishing
+##Fishing zones
+#Appearance: 
 | a small circle of particles
-# Function: 
+#Function: 
 | each zone has a type or set of types, such as [Shallow] or [Shallow/Coastal]
 | Press [Space] to deploy rod, when deployed press [Space] when meter aligns to reel in
 | Missing the meter causes youur reel progress to decrease.
@@ -23,8 +23,8 @@
 
 
 
-## Fish Merchant
-# Appearance:
+##Fish Merchant
+#Appearance:
 | A smalll shop stand usually found at docks, accessable through docking and selecting the icon
 
 

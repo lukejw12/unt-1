@@ -1,4 +1,3 @@
-# data/unt-1/function/fishing/values/calculate_blue_mackerel_value.mcfunction
 scoreboard players operation #length_inches_100 unt-1.temp = #mackerel_max_length unt-1.const
 
 execute store result score #trophy_bonus_percent unt-1.temp run random value 5..15

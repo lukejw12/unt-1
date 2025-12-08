@@ -1,4 +1,3 @@
-# data/unt-1/function/fishing/give_random_fish_with_value.mcfunction
 execute store result score #random unt-1.temp run random value 0..1
 
 execute if entity @s[tag=unt-1.caught_trophy] if score #random unt-1.temp matches 0 run function unt-1:fishing/values/calculate_cod_trophy_value
