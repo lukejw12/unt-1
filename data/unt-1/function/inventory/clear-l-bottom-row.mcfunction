@@ -1,9 +1,0 @@
-execute if items entity @s container.27 *[custom_data~{unt-1.size_L:1b}] run function unt-1:inventory/return-item {slot:27}
-execute if items entity @s container.28 *[custom_data~{unt-1.size_L:1b}] run function unt-1:inventory/return-item {slot:28}
-execute if items entity @s container.29 *[custom_data~{unt-1.size_L:1b}] run function unt-1:inventory/return-item {slot:29}
-execute if items entity @s container.30 *[custom_data~{unt-1.size_L:1b}] run function unt-1:inventory/return-item {slot:30}
-execute if items entity @s container.31 *[custom_data~{unt-1.size_L:1b}] run function unt-1:inventory/return-item {slot:31}
-execute if items entity @s container.32 *[custom_data~{unt-1.size_L:1b}] run function unt-1:inventory/return-item {slot:32}
-execute if items entity @s container.33 *[custom_data~{unt-1.size_L:1b}] run function unt-1:inventory/return-item {slot:33}
-execute if items entity @s container.34 *[custom_data~{unt-1.size_L:1b}] run function unt-1:inventory/return-item {slot:34}
-execute if items entity @s container.35 *[custom_data~{unt-1.size_L:1b}] run function unt-1:inventory/return-item {slot:35}
