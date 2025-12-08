@@ -1,4 +1,17 @@
+# Fishing Constants - loaded once on datapack load
 
+# Fish size constants (in hundredths of an inch)
+scoreboard players set #cod_max_length unt-1.const 4724
+scoreboard players set #mackerel_max_length unt-1.const 1181
+
+# Fish value constants (in cents)
+scoreboard players set #cod_min_value unt-1.const 1530
+scoreboard players set #cod_value_range unt-1.const 720
+scoreboard players set #mackerel_min_value unt-1.const 850
+scoreboard players set #mackerel_value_range unt-1.const 400
+
+# Conversion constants
+scoreboard players set #1200 unt-1.const 1200
 
 
 # Scoreboards

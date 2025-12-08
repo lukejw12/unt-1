@@ -1,16 +1,13 @@
-scoreboard players set #cod_max_length_100 unt-1.temp 4724
-
-scoreboard players operation #length_inches_100 unt-1.temp = #cod_max_length_100 unt-1.temp
+scoreboard players operation #length_inches_100 unt-1.temp = #cod_max_length unt-1.const
 
 execute store result score #trophy_bonus_percent unt-1.temp run random value 5..15
 
-scoreboard players operation #trophy_bonus unt-1.temp = #cod_max_length_100 unt-1.temp
+scoreboard players operation #trophy_bonus unt-1.temp = #cod_max_length unt-1.const
 scoreboard players operation #trophy_bonus unt-1.temp *= #trophy_bonus_percent unt-1.temp
 scoreboard players operation #trophy_bonus unt-1.temp /= #100 unt-1.const
 
 scoreboard players operation #length_inches_100 unt-1.temp += #trophy_bonus unt-1.temp
 
-scoreboard players set #1200 unt-1.const 1200
 scoreboard players operation #feet_100 unt-1.temp = #length_inches_100 unt-1.temp
 scoreboard players operation #feet_100 unt-1.temp *= #100 unt-1.const
 scoreboard players operation #feet_100 unt-1.temp /= #1200 unt-1.const
@@ -23,17 +20,14 @@ scoreboard players operation #feet_decimal unt-1.temp %= #100 unt-1.const
 
 scoreboard players operation #size_percent unt-1.temp = #length_inches_100 unt-1.temp
 scoreboard players operation #size_percent unt-1.temp *= #100 unt-1.const
-scoreboard players operation #size_percent unt-1.temp /= #cod_max_length_100 unt-1.temp
+scoreboard players operation #size_percent unt-1.temp /= #cod_max_length unt-1.const
 
 execute if score #size_percent unt-1.temp matches 116.. run scoreboard players set #size_percent unt-1.temp 115
 
-scoreboard players set #cod_min_value unt-1.temp 1530
-scoreboard players set #cod_value_range unt-1.temp 720
-
-scoreboard players operation #fish_value_cents unt-1.temp = #cod_value_range unt-1.temp
+scoreboard players operation #fish_value_cents unt-1.temp = #cod_value_range unt-1.const
 scoreboard players operation #fish_value_cents unt-1.temp *= #size_percent unt-1.temp
 scoreboard players operation #fish_value_cents unt-1.temp /= #100 unt-1.const
-scoreboard players operation #fish_value_cents unt-1.temp += #cod_min_value unt-1.temp
+scoreboard players operation #fish_value_cents unt-1.temp += #cod_min_value unt-1.const
 
 scoreboard players operation #fish_value_dollars unt-1.temp = #fish_value_cents unt-1.temp
 scoreboard players operation #fish_value_dollars unt-1.temp /= #100 unt-1.const
