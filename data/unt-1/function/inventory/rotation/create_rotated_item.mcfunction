@@ -1,4 +1,3 @@
-
 $item replace entity @s player.cursor with gray_dye[\
   max_stack_size=1,\
   custom_data={\
@@ -12,6 +11,6 @@ $item replace entity @s player.cursor with gray_dye[\
   },\
   item_model="unt-1:fish/shallow/$(item_type)/$(item_type)_$(model_string)",\
   lore=$(fish_lore),\
-  item_name=$(fish_name),\
+  item_name={"extra":[{"color":"white","text":" $(fish_display)","italic":false,"font":"minecraft:default"}],"text":"ꀀ","italic":false,"font":"unt-1:gui/sprites/emoticons"},\
   tooltip_style="unt-1:basic"\
 ]

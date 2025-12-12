@@ -6,6 +6,8 @@ data modify storage unt-1:temp fish_condition set from entity @s Inventory[{Slot
 data modify storage unt-1:temp fish_lore set from entity @s Inventory[{Slot:8b}].components."minecraft:lore"
 data modify storage unt-1:temp fish_name set from entity @s Inventory[{Slot:8b}].components."minecraft:custom_name"
 data modify storage unt-1:temp item_type set from entity @s Inventory[{Slot:8b}].components."minecraft:custom_data"."unt-1.item_type"
+execute if data storage unt-1:temp {item_type:"cod"} run data modify storage unt-1:temp fish_display set value "Cod"
+execute if data storage unt-1:temp {item_type:"blue_mackerel"} run data modify storage unt-1:temp fish_display set value "Blue Mackerel"
 execute store result score #current_rotation unt-1.temp run data get entity @s Inventory[{Slot:8b}].components."minecraft:custom_data"."unt-1.rotation"
 
 item replace entity @s container.8 with air

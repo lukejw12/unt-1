@@ -1,0 +1,102 @@
+# Early Game (Hours 0-2)
+
+## Milestone 1: Experience your first "loop reset"
+
+- After fishing for 20 minutes (in-game day cycle)
+- Screen flashes, you're back at dock
+- Keep fish/money, but world resets
+- NPC at dock: "You're back already? But you just left..."
+
+
+## Milestone 2: Find the Previous Fisherman's Journal - Page 1
+
+- Washes up while fishing in Shallows
+- Entry: "Day 47: The fog is getting thicker. I can't remember yesterday."
+- Unlock: Sanity meter appears
+- New mechanic: Fishing at "night" drains sanity faster
+
+
+
+# Mid Game (Hours 2-5)
+
+## Milestone 3: Discover Memory Fragments
+
+- Special glowing fish that restore small bits of memory
+- When caught: Brief flashback cutscene
+- Unlock: Memory Journal (tracks discovered story)
+- Reveals: You are the previous fisherman, trapped in loop
+
+
+## Milestone 4: The Fog Entities appear
+
+- When sanity drops below 30%
+- Shadow figures watch you from the shore
+- New mechanic: Panic fishing (arrow moves erratically)
+- Find Journal Page 2: "They're not real. They can't be real."
+
+
+## Milestone 5: Unlock "Lucid Moments"
+
+- Cost: 10 Memory Fragments
+- Once per loop: Time slows, sanity freezes
+- Duration: 5 minutes
+- Allows safe night fishing
+
+
+## Milestone 6: Discover The Lighthouse
+
+- Abandoned structure in new zone
+- Inside: Previous victims' journals (50+ years of loops)
+- Find: Ancient Ritual instructions
+- Unlock: Can perform rituals at dock (cost fish for benefits)
+
+# Late Game (Hours 5-8)
+
+## Milestone 7: Catch a "Paradox Fish"
+
+- Appears only during loop reset flash
+- Requires perfect timing (1-second window)
+- When caught: Glitches reality
+- New zones briefly appear and disappear
+
+
+## Milestone 8: Map the Phantom Zones
+
+- 5 zones that only exist during specific loop times
+- Must chart when/where they appear
+- Each contains crucial story pieces
+- Find Journal Page 5: "The loop is a prison. The sea is the warden."
+
+
+## Milestone 9: Gather the Four Cursed Relics
+
+- Found in Phantom Zones
+- Each relic shows a different loop victim's fate
+- Combining them reveals: The Source (new location)
+
+
+
+# End Game (Hours 8-12)
+
+## Milestone 10: Reach The Source
+
+- Massive whirlpool that exists outside of time
+- Inside: The Time Keeper (ancient entity)
+- Reveals: Loop was created to trap it
+- Choice: Feed it Memory Fish to learn truth
+
+
+## Milestone 11: Understand the Original Sin
+
+- Flashback: Original fisherman caught Time Keeper
+- Instead of releasing it, he tried to sell it
+- Curse was punishment
+- Unlock: Three possible endings
+
+
+# FINAL MILESTONE: Break the Loop
+
+- Ending A: Release Time Keeper (loop ends, ocean becomes normal)
+- Ending B: Trap new victim (you escape, someone else loops forever)
+- Ending C: Embrace the loop (become immortal fisher, accept fate)
+Post-game: NG+ with memories intact, harder challenges
